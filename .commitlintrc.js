@@ -4,6 +4,7 @@ module.exports = {
   rules: {
     // @see: https://commitlint.js.org/#/reference-rules
   },
+  parserPreset: './parser-preset.js',
   prompt: {
     alias: { fd: 'docs: fix typos' },
     messages: {
@@ -110,4 +111,5 @@ module.exports = {
     defaultScope: '',
     defaultSubject: '',
   },
+  extends: ['@commitlint/config-conventional'],
 };

@@ -6,7 +6,9 @@
     "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
-    "prepare": "husky install && dumi setup"
+    "prepare": "husky install && dumi setup",
+    "commit": "git add -A && git cz",
+    "push": "pnpm commit && git push"
   },
   "authors": [
     "mudssky"
