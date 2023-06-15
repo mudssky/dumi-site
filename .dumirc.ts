@@ -1,6 +1,8 @@
 import { defineConfig } from 'dumi'
 
 export default defineConfig({
+  base: '/mud-frontend-utilities/',
+  publicPath: '/mud-frontend-utilities/',
   themeConfig: {
     name: '站点名称',
     logo: false,
@@ -16,7 +18,6 @@ export default defineConfig({
       github: 'https://github.com/mudssky',
     },
   },
-  base: '/mud-frontend-utilities/',
   resolve: {
     // docDirs:['docs'] ,//配置 Markdown 文档的解析目录
     // atomDirs 配置原子资产（例如组件、函数、工具等）Markdown 的解析目录。
