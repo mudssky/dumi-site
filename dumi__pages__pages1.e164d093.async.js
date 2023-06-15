@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmud_frontend_utilities=self.webpackChunkmud_frontend_utilities||[]).push([[257],{20024:function(i,n,u){u.r(n),u.d(n,{default:function(){return d}});var e=u(67294),t=u(85893);function d(){return(0,t.jsx)("div",{children:"\u6253\u7B97\u5FEB\u70B9\u54C8\u5373\u53EF"})}}}]);
