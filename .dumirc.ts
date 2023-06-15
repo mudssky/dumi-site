@@ -16,7 +16,7 @@ export default defineConfig({
       github: 'https://github.com/mudssky',
     },
   },
-
+  base: '/mud-frontend-utilities/',
   resolve: {
     // docDirs:['docs'] ,//配置 Markdown 文档的解析目录
     // atomDirs 配置原子资产（例如组件、函数、工具等）Markdown 的解析目录。

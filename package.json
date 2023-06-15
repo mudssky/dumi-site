@@ -8,7 +8,8 @@
     "build": "dumi build",
     "prepare": "husky install && dumi setup",
     "commit": "git add -A && git cz",
-    "push": "pnpm commit && git push"
+    "push": "pnpm commit && git push",
+    "deploy": "gh-pages -d dist"
   },
   "authors": [
     "mudssky"
@@ -30,6 +31,7 @@
     "@types/react": "^18.2.12",
     "cz-git": "^1.6.1",
     "dumi": "^2.2.1",
+    "gh-pages": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
     "prettier": "^2.8.8"
