@@ -1,5 +1,7 @@
 ---
-nav: 开发工具
+nav:
+  title: 开发工具
+  order: 3
 group: git
 toc: content
 mobile: false
