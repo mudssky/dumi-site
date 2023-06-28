@@ -15,9 +15,3 @@ tocDepth: 3
 
 使用数组将枚举状态信息保存起来
 label 是中文值，value 是后端保存和实际使用的值
-
-<code src="../../src/utils/enumArray.ts" inline="true"></code>
-
-```tsx
-export default () => <div>dasdsad</div>
-```

@@ -1,8 +1,9 @@
 import { defineConfig } from 'dumi'
-
+import packageJson from './package.json'
+const repoBase = `/${packageJson.name}/`
 export default defineConfig({
-  base: '/mud-frontend-utilities/',
-  publicPath: '/mud-frontend-utilities/',
+  base: repoBase,
+  publicPath: repoBase,
   exportStatic: {}, // 将所有路由输出为 HTML 目录结构，以免刷新页面时 404
   themeConfig: {
     name: '站点名称',
