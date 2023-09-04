@@ -6,9 +6,11 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "@@/*": [".dumi/tmp/*"]
+      "@@/*": [".dumi/tmp/*"],
+      "dumi-site": ["src"],
+      "dumi-site/*": ["src/*", "*"]
     },
     "resolveJsonModule": true
   },
-  "include": [".dumi/**/*", ".dumirc.ts"]
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
 }

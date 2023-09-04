@@ -1,7 +1,7 @@
 ---
 nav:
   title: 代码片段
-  order: 1
+  order: 2
 
 group:
   title: 实用类封装

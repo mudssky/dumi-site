@@ -1,5 +1,7 @@
 ---
-nav: nav2
+nav:
+  title: nav2
+  order: 6
 # group: git
 toc: content
 mobile: false
